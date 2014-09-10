@@ -4,7 +4,6 @@
     <modelVersion>4.0.0</modelVersion>
     <packaging>war</packaging>
     <version>1.0-SNAPSHOT</version>
-    <groupId>com.alexkli.appengine</groupId>
     <artifactId>versionatorr-war</artifactId>
 
     <parent>
@@ -35,6 +34,16 @@
             <groupId>jstl</groupId>
             <artifactId>jstl</artifactId>
             <version>1.2</version>
+        </dependency>
+        <dependency>
+            <groupId>org.osgi</groupId>
+            <artifactId>org.osgi.core</artifactId>
+            <version>4.3.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.maven</groupId>
+            <artifactId>maven-artifact</artifactId>
+            <version>3.1.0</version>
         </dependency>
 
         <!-- Test Dependencies -->
