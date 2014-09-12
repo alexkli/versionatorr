@@ -1,12 +1,11 @@
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
-<%@ page import="
+<%@ page contentType="text/html;charset=UTF-8" language="java" %><%
+%><%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %><%
+%><%@ page import="
     org.osgi.framework.Version,
     org.apache.maven.artifact.versioning.DefaultArtifactVersion,
     org.apache.maven.shared.osgi.DefaultMaven2OsgiConverter
-" %>
-
-<%!
+" %><%
+%><%!
     String comparisonSymbol(int compareResult) {
         if (compareResult < 0) {
             return "<";
@@ -23,13 +22,10 @@
         }
         return str;
     }
-%>
-<%
+%><%
     String a = def(request.getParameter("a"), "1.0");
     String b = def(request.getParameter("b"), "1.2");
-%>
-
-<html>
+%><html>
 <head>
     <title>Versionatorr</title>
     <link type="text/css" rel="stylesheet" href="github-markdown.css" />
