@@ -18,7 +18,27 @@
     </properties>
 
     <dependencies>
-        <!-- Compile/runtime dependencies -->
+        <!-- Versionatorr specific dependencies -->
+        <dependency>
+            <groupId>org.osgi</groupId>
+            <artifactId>org.osgi.core</artifactId>
+            <!-- also update version in footer of versionatorr.jsp -->
+            <version>4.3.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.maven</groupId>
+            <artifactId>maven-artifact</artifactId>
+            <!-- also update version in footer of versionatorr.jsp -->
+            <version>3.1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.felix</groupId>
+            <artifactId>maven-bundle-plugin</artifactId>
+            <!-- also update version in footer of versionatorr.jsp -->
+            <version>2.4.0</version>
+        </dependency>
+
+        <!-- Appengine dependencies -->
         <dependency>
             <groupId>com.google.appengine</groupId>
             <artifactId>appengine-api-1.0-sdk</artifactId>
@@ -34,16 +54,6 @@
             <groupId>jstl</groupId>
             <artifactId>jstl</artifactId>
             <version>1.2</version>
-        </dependency>
-        <dependency>
-            <groupId>org.osgi</groupId>
-            <artifactId>org.osgi.core</artifactId>
-            <version>4.3.1</version>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.maven</groupId>
-            <artifactId>maven-artifact</artifactId>
-            <version>3.1.0</version>
         </dependency>
 
         <!-- Test Dependencies -->
