@@ -161,6 +161,7 @@
                 <th>Major</th>
                 <th>Minor</th>
                 <th>Micro (Patch)</th>
+                <th></th>
                 <th>Qualifier</th>
             </tr>
         </thead>
@@ -170,6 +171,7 @@
                 <td><%= osgiA.getMajor() %></td>
                 <td><%= osgiA.getMinor() %></td>
                 <td><%= osgiA.getMicro() %></td>
+                <td></td>
                 <td><%= osgiA.getQualifier() %></td>
             </tr>
             <tr>
@@ -177,6 +179,7 @@
                 <td><%= osgiB.getMajor() %></td>
                 <td><%= osgiB.getMinor() %></td>
                 <td><%= osgiB.getMicro() %></td>
+                <td></td>
                 <td><%= osgiB.getQualifier() %></td>
             </tr>
         </tbody>
