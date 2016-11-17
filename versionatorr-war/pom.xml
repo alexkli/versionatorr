@@ -37,6 +37,12 @@
             <!-- also update version in footer of versionatorr.jsp -->
             <version>2.4.0</version>
         </dependency>
+        <dependency>
+            <groupId>org.apache.jackrabbit.vault</groupId>
+            <artifactId>org.apache.jackrabbit.vault</artifactId>
+            <!-- also update version in footer of versionatorr.jsp -->
+            <version>3.1.30</version>
+        </dependency>
 
         <!-- Appengine dependencies -->
         <dependency>
@@ -90,6 +96,11 @@
                         </resource>
                     </webResources>
                 </configuration>
+            </plugin>
+            <plugin>
+                <groupId>com.google.appengine</groupId>
+                <artifactId>appengine-maven-plugin</artifactId>
+                <version>${appengine.target.version}</version>
             </plugin>
         </plugins>
     </build>
