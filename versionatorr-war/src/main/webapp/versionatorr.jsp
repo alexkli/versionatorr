@@ -52,7 +52,7 @@
             <a href="?a=1.0-beta&b=1.0">qualifier</a>,
             <a href="?a=1.2.3-42-beta&b=1.2.3-42">build number</a>,
             <a href="?a=1.0.0.2&b=1.0.0.2.0.0.0">dotdotdot</a>,
-            <a href="?a=a=6.1&b=6.1-FP3">dash</a>
+            <a href="?a=6.1&b=6.1-FP3">dash</a>
         </p>
         <p class="fight">
             <input type="submit" value="Fight!">
