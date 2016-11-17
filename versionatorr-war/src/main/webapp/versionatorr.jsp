@@ -196,9 +196,9 @@
         if (segmentsB.length > maxSegments) {
             maxSegments = segmentsB.length;
         }
-        // above tables have 6 columns, looks better
-        if (maxSegments < 6) {
-            maxSegments = 6;
+        // above tables have 5 columns, looks better
+        if (maxSegments < 5) {
+            maxSegments = 5;
         }
     %>
 
@@ -213,6 +213,7 @@
     <table class="details">
         <thead>
         <tr>
+            <th>Full</th>
             <% for(int i = 0; i < maxSegments; i++) { %>
             <th>Segment <%= i %></th>
             <% } %>
@@ -220,11 +221,13 @@
         </thead>
         <tbody>
         <tr>
+            <td><%= pkgA.toString() %></td>
             <% for(int i = 0; i < maxSegments; i++) { %>
             <td><%= i < segmentsA.length ? segmentsA[i] : "" %></td>
             <% } %>
         </tr>
         <tr>
+            <td><%= pkgB.toString() %></td>
             <% for(int i = 0; i < maxSegments; i++) { %>
             <td><%= i < segmentsB.length ? segmentsB[i] : "" %></td>
             <% } %>
