@@ -15,7 +15,7 @@ The actual web app code is in [versionatorr-war/src/main/webapp](versionatorr-wa
     cd versionatorr-war
     mvn appengine:devserver
     
-Then go to http://localhost:8080
+Then go to <http://localhost:8080>
     
 Kill server with `CTRL+C`. Must be restarted every time a file has changed.
 
