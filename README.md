@@ -10,14 +10,16 @@ Develop
 
 The actual web app code is in [versionatorr-war/src/main/webapp](versionatorr-war/src/main/webapp/).
 
-Run a local test server
+### Run a local test server
 
     cd versionatorr-war
     mvn appengine:devserver
     
-End with `CTRL+C`. Must be restarted every time a file has changed.
+Then go to http://localhost:8080
+    
+Kill server with `CTRL+C`. Must be restarted every time a file has changed.
 
-Deploy to Google App engine
+### Deploy to Google App engine
 
     cd versionatorr-war
     mvn appengine:update
