@@ -9,6 +9,10 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <appengine.target.version>1.9.44</appengine.target.version>
+    
+    <!-- App Engine Standard currently requires Java 7 bytecode -->
+    <maven.compiler.target>1.7</maven.compiler.target>
+    <maven.compiler.source>1.7</maven.compiler.source>
   </properties>
 
   <build>
@@ -35,8 +39,8 @@
                       <configuration>
                           <rules>
                               <requireJavaVersion>
-                                  <!-- AppEngine does not support 1.8 yet -->
-                                  <version>[1.7,1.8)</version>
+                                  <!-- AppEngine does not support 1.9 yet -->
+                                  <version>[1.7,1.9)</version>
                               </requireJavaVersion>
                           </rules>
                       </configuration>
