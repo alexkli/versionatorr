@@ -157,9 +157,9 @@
         <thead>
             <tr>
                 <th>Full</th>
-                <th>Major</th>
-                <th>Minor</th>
-                <th>Micro (Patch)</th>
+                <th>Breaking<br><span class="subnote">Major</span></th>
+                <th>Feature<br><span class="subnote">Minor</span></th>
+                <th>Fix<br><span class="subnote">Micro/Patch</span></th>
                 <th></th>
                 <th>Qualifier</th>
             </tr>
